@@ -1,0 +1,71 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/005/179/618/non_2x/romantic-couple-in-starry-night-background-widescreen-starry-night-background-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    min-height: 100vh;
+    color: #ffffff;
+}
+/* Estilo del contenedor principal */
+.container {
+    min-height: calc(100vh - 56px); /* Descontar la altura de la barra de navegación */
+}
+
+/* Estilo de los inputs */
+.input-group .form-control {
+    font-size: 1rem;  /* Reducir el tamaño del texto */
+    padding: 10px;  /* Reducir el padding para hacer el input más pequeño */
+    border-radius: 5px;
+    border: 2px solid #ffffff;  /* Borde blanco */
+    background-color: transparent;  /* Fondo transparente */
+    color: white;  /* Color del texto en blanco */
+}
+
+/* Estilo del borde cuando el input tiene foco */
+.input-group .form-control:focus {
+    border-color: #ffffff;  /* Mantener el borde blanco en foco */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);  /* Agregar un resplandor blanco */
+}
+
+/* Estilo de las etiquetas */
+.form-label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Estilo del botón personalizado */
+.btn-custom {
+    background: linear-gradient(90deg, #1E3A8A, #000000);  /* Degradado de azul metalizado a negro */
+    color: #ffffff;
+    font-size: 1rem;  /* Ajustar el tamaño de la fuente */
+    padding: 8px 12px;  /* Ajustar el padding para hacerlo más pequeño */
+    border-radius: 5px;
+    border: none;
+    width: auto; /* Hacer que el botón no ocupe todo el ancho */
+    text-align: center;
+    margin-top: 10px; /* Espacio superior para separar el botón */
+}
+
+.btn-custom:hover {
+    background: linear-gradient(90deg, #3B82F6, #000000);  /* Degradado de azul más claro a negro en hover */
+    color: white;
+}
+
+/* Estilo para la barra de navegación */
+.navbar-nav .nav-link {
+    font-size: 1.2rem;  /* Aumentar el tamaño de la fuente de la barra de navegación */
+    margin-right: 10px;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #1E3A8A;  /* Azul metalizado */
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #FFD700;
+    color: #1E3A8A; /* Azul metalizado */
+}

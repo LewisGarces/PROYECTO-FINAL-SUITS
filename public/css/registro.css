@@ -1,0 +1,45 @@
+/* Botón de registro (de azul metálico a negro con bordes blancos) */
+#btn_registro {
+    background: linear-gradient(45deg, #3a5fcd, #000000); /* Azul metálico a negro */
+    border: 1px solid white; /* Borde blanco */
+    color: white; /* Texto blanco */
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+#btn_registro:hover {
+    background: linear-gradient(45deg, #000000, #3a5fcd); /* Negro a azul metálico en hover */
+    transform: scale(1.05);
+}
+
+/* Botón de inicio de sesión (de azul metálico a negro con bordes blancos) */
+#btn_inicio {
+    background: linear-gradient(45deg, #3a5fcd, #000000); /* Azul metálico a negro */
+    border: 1px solid white; /* Borde blanco */
+    color: white; /* Texto blanco */
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+#btn_inicio:hover {
+    background: linear-gradient(45deg, #000000, #3a5fcd); /* Negro a azul metálico en hover */
+    transform: scale(1.05);
+}
+
+/* Inputs transparentes con borde blanco */
+.input-transparente {
+    background-color: transparent !important;
+    color: #ffffff !important; /* Aseguramos que el texto dentro del input sea blanco */
+    border: 1px solid #ffffff; /* Borde blanco */
+}
+
+
+.input-transparente:focus {
+    border-color: #50C878; /* Borde verde esmeralda al hacer focus */
+    box-shadow: 0 0 0 0.2rem rgba(80, 200, 120, 0.25);
+}
+
+/* Labels en color blanco */
+label {
+    color: #ffffff !important;
+}

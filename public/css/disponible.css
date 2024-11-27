@@ -1,0 +1,18 @@
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1663970206579-c157cba7edda?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG8lMjBkZSUyMHBhbnRhbGxhJTIwcGFyYSUyMHBjfGVufDB8fDB8fHww');
+    background-size: cover; /* Ajusta el fondo para que cubra toda la pantalla */
+    background-position: center center; /* Centra el fondo */
+    background-repeat: no-repeat; /* Evita que se repita el fondo */
+}
+
+        /* Estilo para los encabezados (h2, h3, h4) */
+        h2, h3, h4 {
+            background: linear-gradient(135deg, #C0C0C0, #FFFFFF); /* Degradado de plata a blanco */
+            -webkit-background-clip: text; /* Aplica el degradado solo al texto */
+            color: transparent; /* Hace que el texto sea transparente, mostrando solo el degradado */
+            font-family: 'Poppins', sans-serif; /* Fuente profesional */
+            font-weight: 600; /* Peso de la fuente */
+            font-size: 2rem; /* Tamaño grande */
+            text-shadow: 3px 3px 6px rgba(192, 192, 192, 0.8), 0 0 3px rgba(255, 255, 255, 0.8); /* Sombreado de plata y blanco */
+        }

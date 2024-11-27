@@ -1,0 +1,72 @@
+/* Título */
+h3 {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Inputs transparentes con borde blanco */
+.form-control {
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    border-radius: 8px;
+    color: white; /* Color del texto dentro de los inputs */
+}
+
+/* Color del texto dentro del input cuando está en foco */
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ff69b4;
+    color: white; /* Aseguramos que el texto sea blanco cuando está enfocado */
+}
+
+/* Placeholder */
+.form-control::placeholder {
+    color: #cccccc; /* Color del texto del placeholder */
+}
+
+/* Etiquetas flotantes */
+.form-floating label {
+    color: #ffffff !important;
+}
+
+/* Botón de iniciar sesión: azul metálico a negro */
+#btn_iniciar {
+    background: linear-gradient(45deg, #4682B4, #000000); /* Degradado de azul metálico a negro */
+    border: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+#btn_iniciar:hover {
+    background: linear-gradient(45deg, #000000, #4682B4); /* Degradado inverso al pasar el ratón */
+    transform: scale(1.05);
+}
+
+/* Botón de registro: azul metálico a negro */
+a.btn-danger {
+    background: linear-gradient(45deg, #4682B4, #000000); /* Degradado de azul metálico a negro */
+    border: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+a.btn-danger:hover {
+    background: linear-gradient(45deg, #000000, #4682B4); /* Degradado inverso al pasar el ratón */
+    transform: scale(1.05);
+}
+
+/* Imagen redondeada */
+img.rounded-circle {
+    border: 2px solid aliceblue;
+    margin-bottom: 20px;
+}
+
+/* Ajuste de tamaño para pantallas pequeñas */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
